@@ -1,3 +1,4 @@
-const indexOfSoma = require('../indexOfSoma')
+const indexOfSoma = require('./indexOfSoma')
+const Profit = require('./Profit')
 
-module.exports = indexOfSoma
+module.exports = {indexOfSoma, Profit}
